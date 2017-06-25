@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE movies SYSTEM "movies.dtd">
+<movies>
+    <movie id="1">
+        <title>Life of Po</title>
+        <description>The adventures of a teletubbie</description>
+        <poster path="img/movies">lifeofpo.jpg</poster>
+    </movie>
+    <movie id="2">
+        <title>Sherlock Homeboy</title>
+        <description>The rapping detective</description>
+        <poster path="img/movies">sherlokhomeboy.jpg</poster>
+        <remark>Do not do drugs!</remark>
+    </movie>
+    <movie id="3">
+        <title>Dear Frank</title>
+        <description>A monster love story</description>
+        <poster path="img/movies">dearfrank.jpg</poster>
+    </movie>
+    <movie id="4">
+        <title>Beanhart</title>
+        <description>An epic laugh</description>
+        <poster path="img/movies">beanhart.jpg</poster>
+    </movie>
+    <movie id="5">
+        <title>Harry and Sully</title>
+        <description>Two buddies in blue</description>
+        <poster path="img/movies">harryandsully.jpg</poster>
+    </movie>
+    <movie id="6">
+        <title>Star Shrek</title>
+        <description>Green man in space</description>
+        <poster path="img/movies">starshrek.jpg</poster>
+        <remark>Live long and swampy</remark>
+    </movie>
+</movies>

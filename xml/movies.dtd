@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+        <!ELEMENT movies (movie)*>
+        <!ELEMENT movie (title|description|poster|remark)*>
+        <!ATTLIST movie
+                id CDATA #REQUIRED>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT poster (#PCDATA)>
+        <!ATTLIST poster
+                path CDATA #REQUIRED>
+        <!ELEMENT remark (#PCDATA)>
