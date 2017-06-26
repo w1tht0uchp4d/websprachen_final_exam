@@ -108,6 +108,7 @@ class Controller{
 	// Session löschen
 	private function killSession()
     {
+	
 		// Achtung: Damit wird die Session gelöscht, nicht nur die Session-Daten!
 		if (ini_get("session.use_cookies")) {
 			$params = session_get_cookie_params();
@@ -117,6 +118,8 @@ class Controller{
 		}
 		// Zum Schluß, löschen der Session.
 		session_destroy();
+		
+		unset($_SESSION);
 	}
 }
 

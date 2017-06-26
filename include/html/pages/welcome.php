@@ -34,7 +34,7 @@ if(!isset($_SESSION["name"]))
 ?>
     <blockquote class="blockquote" >
     <!--Achtung!Ergänzen Sie das Formular an 2 Stellen!-->
-    <form action = "index.php?action=killname" method = "post" >
+    <form action = "index.php" method = "post" >
         <div class="form-group" >
             <label > Name</label >
             <input name = "name" type = "text" placeholder = "Ihre Name hier ..."
@@ -54,8 +54,9 @@ else {
         <!-- Hier soll Ihre Name aus der Sitzung mit einer Begrüßung eingebaut werden: -->
         <p>Name: <b><i>Hallo <?php echo $_SESSION["name"] ?></i></b></p>
         <!-- Achtung! Ergänzen Sie das Formular an 1 Stelle! -->
-        <form action="index.php?action=killname" method="get">
+        <form action="index.php" method="get">
             <button type="submit" class="btn btn-success btn-xs"><b>Name löschen</b></button>
+			<input type="hidden" name="action" value="killname" />
         </form>
         <footer>Bereich 2</footer>
     </blockquote>
